@@ -1,4 +1,4 @@
-# 🔒 Terraform Security Enhancer
+# Terraform Security Enhancer
 
 A Streamlit application that analyzes and enhances the security of Terraform configurations using AI.
 
@@ -59,13 +59,6 @@ Terraform Security Enhancer is a tool designed to help DevOps engineers and clou
    - Compare with original code in the "Original Code" tab
    - See highlighted differences in the "Differences" tab
 
-## How It Works
-
-1. The application analyzes the structure of your Terraform code, including modules and their dependencies
-2. It sends the Terraform files to OpenAI's API with your security enhancement prompt
-3. The AI generates improved versions of your files with enhanced security features
-4. The application displays the original and improved code side-by-side with differences highlighted
-
 ## Example Prompts
 
 - "Update the VPC by adding security groups with strict ingress/egress rules, enable VPC flow logs, and implement network ACLs for better security."
@@ -79,11 +72,3 @@ The following Python packages are required:
 - openai
 - python-dotenv
 - pathlib
-
-## License
-
-[MIT License](LICENSE)
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
